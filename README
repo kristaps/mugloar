@@ -1,0 +1,19 @@
+The program should run on any recent Python installation.
+
+Install the dependencies first:
+
+    pip install -r requirements.txt
+
+Then run the program:
+
+    python fight_knights.py
+
+
+To play multiple games use the "-n" option:
+
+    python fight_knights -n 100  # Will play 100 games
+
+
+To get more detailed output use the "-v" option:
+
+    python fight_knights -v  # Will print knight and dragon stats for each game
