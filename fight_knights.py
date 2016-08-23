@@ -134,7 +134,7 @@ if __name__ == '__main__':
         '-n',
         dest='game_count',
         type=int,
-        default=10,
+        default=1,
         help='How many games to play'
     )
     parser.add_argument(
